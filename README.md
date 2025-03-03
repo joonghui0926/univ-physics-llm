@@ -46,13 +46,13 @@ cd univ-physics-llm
 ```bash
 python basic_model_test.py
 ```
-기본 Llama 3.1 모델을 사용하여 간단한 물리 문제를 테스트합니다.
+기본 `Llama 3.1` 모델을 사용하여 간단한 물리 문제를 테스트합니다.
 
 ### 모델 학습 시작 (QLoRA 적용)
 ```bash
 python main.py
 ```
-physics_test_dataset.jsonl을 기반으로 QLoRA를 활용한 파인튜닝을 수행합니다.
+`physics_test_dataset.jsonl`을 기반으로 `QLoRA`를 활용한 파인튜닝을 수행합니다.
 
 ### 학습된 모델 테스트
 ```bash
