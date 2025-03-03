@@ -92,9 +92,10 @@ python model_test.py
 ```
 
 구성 요소:
-input: 문제 내용
-solution: AI가 제공할 풀이
-skills: 문제 해결에 필요한 개념
+
+`input`: 문제 내용 
+`solution`: AI가 제공할 풀이
+`skills`: 문제 해결에 필요한 개념
 
 ---
 
