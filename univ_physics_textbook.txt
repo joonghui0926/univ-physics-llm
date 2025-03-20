@@ -1,0 +1,2674 @@
+Chapter 1: Physics and Measurement
+
+## 1.1 The Nature of Physics
+Physics is the fundamental science that seeks to understand the laws governing the natural world. It encompasses a broad range of phenomena, from the smallest subatomic particles to the vastness of the universe. The scientific method, used by physicists, involves observation, experimentation, and theoretical analysis to develop models and laws that describe physical reality.
+
+### Key Concepts:
+- Physics is based on **observation and experimentation**.
+- Physical theories must be **testable and falsifiable**.
+- Theories are refined over time through **experimental verification**.
+
+---
+
+## 1.2 Standards of Length, Mass, and Time
+Measurement is a crucial aspect of physics. Three fundamental quantities are:
+1. **Length (L)** - measured in meters (m)
+2. **Mass (M)** - measured in kilograms (kg)
+3. **Time (T)** - measured in seconds (s)
+
+The SI (International System of Units) is the standard system used in physics. 
+
+### Standard Units:
+- **Meter (m)**: The distance light travels in vacuum in \( 1/299,792,458 \) seconds.
+- **Kilogram (kg)**: Defined based on Planck’s constant, replacing the previous standard of a physical platinum-iridium cylinder.
+- **Second (s)**: Defined by the vibrations of **cesium-133 atoms (9,192,631,770 oscillations)**.
+
+### Common Conversions:
+\[ 1 	ext{ inch} = 2.54 	ext{ cm} \]
+\[ 1 	ext{ mile} = 1.609 	ext{ km} \]
+
+#### Example Problem:
+**Convert 5 miles to kilometers.**  
+Solution:  
+\[ 5 	ext{ miles} 	imes 1.609 	ext{ km/mile} = 8.045 	ext{ km} \]
+
+---
+
+## 1.3 Dimensional Analysis
+Dimensional analysis is a powerful tool to check equations for consistency and to derive relationships between physical quantities.
+
+### Key Idea:
+Each physical quantity can be expressed in terms of fundamental dimensions:
+- **Length** \([L]\)
+- **Mass** \([M]\)
+- **Time** \([T]\)
+
+### Example: Checking an Equation
+Consider the equation for velocity:
+\[ v = rac{d}{t} \]
+Dimensions:  
+\[ [L] / [T] = [LT^{-1}] \]
+Since velocity has dimensions of \([LT^{-1}]\), the equation is dimensionally correct.
+
+#### Example Problem:
+Determine whether the equation for acceleration,
+\[ a = rac{v}{t} \]
+is dimensionally correct.
+
+Solution:
+\[ [L T^{-1}] / [T] = [L T^{-2}] \]
+Since acceleration has dimensions \([L T^{-2}]\), the equation is correct.
+
+---
+
+## 1.4 Significant Figures and Uncertainty
+Measurements in physics are never perfect. **Significant figures** help in expressing the precision of a measurement.
+
+### Rules for Significant Figures:
+1. **Nonzero digits** are always significant (e.g., **3.45** has 3 significant figures).
+2. **Leading zeros** are NOT significant (e.g., **0.0025** has 2 significant figures).
+3. **Trailing zeros** in a decimal number ARE significant (e.g., **4.500** has 4 significant figures).
+4. **Exact numbers** (such as countable items) have infinite significant figures.
+
+### Propagation of Uncertainty:
+If we have a measurement \( x \pm \Delta x \), where \( \Delta x \) is the uncertainty:
+- **Addition/Subtraction**: The absolute uncertainty sums.
+\[ (A \pm \Delta A) + (B \pm \Delta B) = (A + B) \pm (\Delta A + \Delta B) \]
+- **Multiplication/Division**: The **relative uncertainties** sum.
+\[ rac{\Delta Q}{Q} = rac{\Delta A}{A} + rac{\Delta B}{B} \]
+
+#### Example Problem:
+A measurement of a rod's length is \( 12.3 \pm 0.2 \) cm. A second measurement of another rod is \( 5.4 \pm 0.1 \) cm. What is their total length?
+
+Solution:
+\[ (12.3 \pm 0.2) + (5.4 \pm 0.1) = 17.7 \pm 0.3 	ext{ cm} \]
+
+---
+
+## 1.5 Orders of Magnitude and Estimations
+Physicists often estimate values using **order-of-magnitude** calculations. This means approximating a number by rounding it to the nearest power of 10.
+
+### Example: Estimating the Number of Heartbeats in a Lifetime
+- A human heart beats about **60 beats per minute**.
+- In one hour: \( 60 	imes 60 = 3600 \) beats.
+- In one day: \( 3600 	imes 24 = 86,400 \) beats.
+- In a year: \( 86,400 	imes 365 pprox 3 	imes 10^7 \) beats.
+- In a lifetime (~80 years):  
+  \[ 3 	imes 10^7 	imes 80 = 2.4 	imes 10^9 	ext{ beats} pprox 10^9 \]
+Thus, a human heart beats about **1 billion times in a lifetime**.
+
+---
+
+## 1.6 The Role of Units in Problem-Solving
+Using units correctly in calculations ensures that the final answer makes sense.
+
+### Example: Verifying an Equation for Distance
+Consider the equation:
+\[ d = v t \]
+Using dimensions:
+\[ [L] = [LT^{-1}] 	imes [T] = [L] \]
+Since the result has the correct units of length, the equation is valid.
+
+---
+
+# Summary of Key Equations
+1. **Speed:**  
+   \[ v = rac{d}{t} \]
+2. **Acceleration:**  
+   \[ a = rac{v}{t} \]
+3. **Dimensional Analysis:**  
+   - Length: \([L]\)  
+   - Mass: \([M]\)  
+   - Time: \([T]\)  
+4. **Uncertainty in Addition/Subtraction:**  
+   \[ \Delta Q = \Delta A + \Delta B \]
+5. **Uncertainty in Multiplication/Division:**  
+   \[ rac{\Delta Q}{Q} = rac{\Delta A}{A} + rac{\Delta B}{B} \]
+
+---
+
+This concludes **Chapter 1: Physics and Measurement**.
+
+
+**Chapter 2: Motion in a Straight Line**
+
+## 2.1 Displacement, Velocity, and Speed
+Motion in a straight line (one-dimensional motion) is the simplest form of motion. It involves the movement of an object along a single axis.
+
+### Displacement (\( x \))
+Displacement is the change in position of an object:
+\[\Delta x = x_f - x_i\]
+where \( x_f \) is the final position and \( x_i \) is the initial position.
+
+### Velocity (\( v \))
+Velocity is the rate of change of displacement:
+\[ar{v} = rac{\Delta x}{\Delta t}\]
+where \( \Delta t \) is the time interval.
+
+### Speed (\( s \))
+Speed is the absolute value of velocity (it does not consider direction):
+\[	ext{Speed} = rac{	ext{Total Distance Traveled}}{	ext{Time Taken}}\]
+
+---
+
+## 2.2 Acceleration
+Acceleration measures the change in velocity over time:
+\[ar{a} = rac{\Delta v}{\Delta t}\]
+where \( \Delta v = v_f - v_i \) is the change in velocity.
+
+---
+
+## 2.3 Equations of Motion for Constant Acceleration
+When acceleration is constant, we derive the following kinematic equations:
+
+1. Velocity as a function of time:
+   \[ v = v_i + at \]
+
+2. Position as a function of time:
+   \[ x = x_i + v_i t + rac{1}{2} a t^2 \]
+
+3. Velocity as a function of displacement:
+   \[ v^2 = v_i^2 + 2a(x - x_i) \]
+
+---
+
+## 2.4 Free-Fall Motion
+In free-fall motion, the acceleration due to gravity is constant:
+\[	ext{Acceleration due to gravity} = g = 9.81 	ext{ m/s}^2\]
+
+For an object in free fall:
+1. Velocity: \( v = v_i - gt \)
+2. Position: \( y = y_i + v_i t - rac{1}{2} gt^2 \)
+3. Velocity-Squared: \( v^2 = v_i^2 - 2g(y - y_i) \)
+
+---
+
+# Summary of Key Equations
+1. **Displacement:** \( \Delta x = x_f - x_i \)
+2. **Velocity:** \( v = rac{\Delta x}{\Delta t} \)
+3. **Acceleration:** \( a = rac{\Delta v}{\Delta t} \)
+4. **Equations of Motion:**
+   - \( v = v_i + at \)
+   - \( x = x_i + v_i t + rac{1}{2} a t^2 \)
+   - \( v^2 = v_i^2 + 2a(x - x_i) \)
+5. **Free-Fall Motion:**
+   - \( v = v_i - gt \)
+   - \( y = y_i + v_i t - rac{1}{2} gt^2 \)
+   - \( v^2 = v_i^2 - 2g(y - y_i) \)
+
+
+
+**Chapter 3: Motion in Two and Three Dimensions**
+
+## 3.1 Vectors and Their Properties
+
+Motion in two or three dimensions requires the use of vectors. A **vector** is a quantity that has both magnitude and direction. Examples of vector quantities include **displacement, velocity, acceleration, and force**.
+
+### Representation of Vectors
+A vector \( \mathbf{A} \) is represented as:
+\[\mathbf{A} = A_x \hat{i} + A_y \hat{j} + A_z \hat{k}\]
+where:
+- \( A_x, A_y, A_z \) are the components of the vector along the \( x, y, \) and \( z \) axes.
+- \( \hat{i}, \hat{j}, \hat{k} \) are the unit vectors in the respective directions.
+
+The **magnitude** of the vector is given by:
+\[\|\mathbf{A}\| = \sqrt{A_x^2 + A_y^2 + A_z^2}\]
+
+### Vector Addition and Subtraction
+Vectors are added component-wise:
+\[\mathbf{C} = \mathbf{A} + \mathbf{B} = (A_x + B_x) \hat{i} + (A_y + B_y) \hat{j} + (A_z + B_z) \hat{k}\]
+
+Similarly, subtraction is performed as:
+\[\mathbf{D} = \mathbf{A} - \mathbf{B} = (A_x - B_x) \hat{i} + (A_y - B_y) \hat{j} + (A_z - B_z) \hat{k}\]
+
+---
+
+## 3.2 Position, Velocity, and Acceleration in Two Dimensions
+
+### Position Vector
+The **position vector** describes the location of an object relative to the origin:
+\[\mathbf{r} = x \hat{i} + y \hat{j} + z \hat{k}\]
+
+### Velocity Vector
+The **velocity vector** is the time derivative of the position vector:
+\[\mathbf{v} = rac{d\mathbf{r}}{dt} = rac{dx}{dt} \hat{i} + rac{dy}{dt} \hat{j} + rac{dz}{dt} \hat{k}\]
+
+### Acceleration Vector
+The **acceleration vector** is the time derivative of the velocity vector:
+\[\mathbf{a} = rac{d\mathbf{v}}{dt} = rac{d^2x}{dt^2} \hat{i} + rac{d^2y}{dt^2} \hat{j} + rac{d^2z}{dt^2} \hat{k}\]
+
+---
+
+## 3.3 Projectile Motion
+
+Projectile motion occurs when an object moves in two dimensions under the influence of gravity, assuming air resistance is negligible.
+
+### Equations of Motion for Projectile Motion:
+- Horizontal motion:
+  \[ x = v_{0x} t \]
+  \[ v_x = v_{0x} \] (constant velocity in the absence of air resistance)
+
+- Vertical motion:
+  \[ y = y_0 + v_{0y} t - rac{1}{2} g t^2 \]
+  \[ v_y = v_{0y} - g t \]
+
+- Time of Flight:
+  \[ t = rac{2 v_{0y}}{g} \]
+
+- Maximum Height:
+  \[ h_{\max} = rac{v_{0y}^2}{2g} \]
+
+- Range (horizontal distance traveled):
+  \[ R = rac{v_0^2 \sin(2	heta)}{g} \]
+
+where:
+- \( v_0 \) is the initial velocity,
+- \( 	heta \) is the launch angle,
+- \( g = 9.81 \, 	ext{m/s}^2 \) is the acceleration due to gravity.
+
+---
+
+## 3.4 Uniform Circular Motion
+
+An object moving in a **circular path** with constant speed is said to be in **uniform circular motion**.
+
+### Centripetal Acceleration
+Although speed is constant, the velocity direction changes continuously, which results in an **acceleration** directed toward the center of the circle.
+
+The magnitude of the centripetal acceleration is:
+\[\mathbf{a}_c = rac{v^2}{r} \hat{r}\]
+where:
+- \( v \) is the speed of the object,
+- \( r \) is the radius of the circular path.
+
+### Period and Frequency
+- **Period (T)**: The time taken to complete one full revolution.
+  \[ T = rac{2\pi r}{v} \]
+- **Frequency (f)**: The number of revolutions per second.
+  \[ f = rac{1}{T} \]
+
+The relationship between angular velocity (\( \omega \)) and linear velocity (\( v \)) is:
+\[\omega = rac{v}{r}\]
+
+---
+
+## 3.5 Relative Motion in Two Dimensions
+
+Relative velocity considers how motion is perceived from different reference frames.
+
+### Relative Velocity Equation
+If object A moves relative to object B:
+\[\mathbf{v}_{A/B} = \mathbf{v}_A - \mathbf{v}_B\]
+
+For example, if a boat moves across a river:
+\[\mathbf{v}_{	ext{boat/ground}} = \mathbf{v}_{	ext{boat/water}} + \mathbf{v}_{	ext{water/ground}}\]
+
+#### Example: Airplane in Wind
+An airplane moving at \( 200 \) km/h east experiences a wind of \( 50 \) km/h north. The resultant velocity is:
+\[\|\mathbf{v}\| = \sqrt{(200)^2 + (50)^2} = 206.2 	ext{ km/h}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Vector Representation:**
+   \[ \mathbf{A} = A_x \hat{i} + A_y \hat{j} + A_z \hat{k} \]
+   \[ \|\mathbf{A}\| = \sqrt{A_x^2 + A_y^2 + A_z^2} \]
+
+2. **Projectile Motion Equations:**
+   - \( x = v_{0x} t \)
+   - \( y = y_0 + v_{0y} t - rac{1}{2} g t^2 \)
+   - \( v_y = v_{0y} - g t \)
+   - \( R = rac{v_0^2 \sin(2	heta)}{g} \)
+
+3. **Uniform Circular Motion:**
+   - Centripetal acceleration: \( a_c = rac{v^2}{r} \)
+   - Angular velocity: \( \omega = rac{v}{r} \)
+
+4. **Relative Motion:**
+   \[ \mathbf{v}_{A/B} = \mathbf{v}_A - \mathbf{v}_B \]
+
+This concludes **Chapter 3: Motion in Two and Three Dimensions**.
+
+
+
+**Chapter 4: Newton’s Laws of Motion**
+
+## 4.1 Force and Interaction
+
+A **force** is a push or pull exerted on an object due to its interaction with another object. Forces can be categorized into **contact forces** (e.g., friction, tension) and **non-contact forces** (e.g., gravity, electromagnetic forces).
+
+The **SI unit** of force is the **Newton (N)**, where:
+\[\mathbf{1 N = 1 kg \cdot m/s^2}\]
+
+---
+
+## 4.2 Newton’s First Law (Law of Inertia)
+
+Newton’s First Law states:
+*"An object at rest stays at rest, and an object in motion continues in motion with constant velocity unless acted upon by an external force."*
+
+This means that an object’s velocity remains unchanged unless a **net force** is applied.
+
+### Concept of Inertia
+- **Inertia** is an object's resistance to changes in motion.
+- **Mass** (\( m \)) is a measure of an object’s inertia.
+
+#### Example: Spacecraft in Deep Space
+A spacecraft moving with constant velocity in deep space will continue moving indefinitely unless acted upon by an external force.
+
+---
+
+## 4.3 Newton’s Second Law (Force and Acceleration)
+
+Newton’s Second Law quantifies force:
+\[\mathbf{F} = m\mathbf{a}\]
+
+where:
+- \( \mathbf{F} \) is the net force (N),
+- \( m \) is the mass (kg),
+- \( \mathbf{a} \) is the acceleration (\( m/s^2 \)).
+
+### Special Cases:
+- If **\( F = 0 \)**, then \( a = 0 \), meaning no acceleration.
+- If mass increases, acceleration decreases for a given force.
+
+#### Example: Car Acceleration
+A 1000 kg car experiences a net force of 2000 N. What is its acceleration?
+\[\mathbf{a} = rac{F}{m} = rac{2000}{1000} = 2 	ext{ m/s}^2\]
+
+---
+
+## 4.4 Newton’s Third Law (Action-Reaction)
+
+Newton’s Third Law states:
+*"For every action, there is an equal and opposite reaction."*
+
+This means that forces always come in **pairs**. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A.
+
+### Example: Walking on the Ground
+When you push backward on the ground, the ground pushes you forward with an equal force, allowing you to walk.
+
+---
+
+## 4.5 Free-Body Diagrams
+
+A **free-body diagram (FBD)** is a visual representation of all forces acting on an object.
+
+Steps to draw an FBD:
+1. Identify the object of interest.
+2. Draw all forces acting on the object.
+3. Represent forces with arrows pointing in the correct direction.
+
+### Example: A Block on an Inclined Plane
+For a block sliding down an inclined plane, forces include:
+- Gravitational force (\( mg \))
+- Normal force (\( N \))
+- Friction force (if applicable)
+
+---
+
+## 4.6 Common Forces in Physics
+
+1. **Gravitational Force** (\( F_g \))
+   \[ F_g = mg \]
+   where \( g = 9.81 	ext{ m/s}^2 \) on Earth.
+
+2. **Normal Force** (\( N \))  
+   The force exerted by a surface perpendicular to the object.
+
+3. **Friction Force** (\( F_f \))
+   - Static friction: \( F_s \leq \mu_s N \)
+   - Kinetic friction: \( F_k = \mu_k N \)
+
+4. **Tension Force** (\( T \))  
+   The force exerted by a rope or cable.
+
+5. **Spring Force** (Hooke’s Law)
+   \[ F_s = -k x \]
+   where \( k \) is the spring constant and \( x \) is the displacement.
+
+---
+
+## 4.7 Applications of Newton’s Laws
+
+### Equilibrium (\( F_{	ext{net}} = 0 \))
+When forces balance out, an object remains at rest or moves with constant velocity.
+
+### Accelerating Systems
+If \( F_{	ext{net}} 
+eq 0 \), the object accelerates.
+
+#### Example: Elevator Motion
+- When an elevator moves **upward with acceleration**, normal force increases.
+- When it **accelerates downward**, normal force decreases.
+
+---
+
+# Summary of Key Equations
+
+1. **Newton’s Second Law:**  
+   \[ F = ma \]
+
+2. **Weight (Gravitational Force):**  
+   \[ F_g = mg \]
+
+3. **Friction Forces:**  
+   \[ F_s \leq \mu_s N, \quad F_k = \mu_k N \]
+
+4. **Hooke’s Law (Spring Force):**  
+   \[ F_s = -k x \]
+
+5. **Tension in Ropes:**  
+   - If a rope is ideal (massless), tension is the same throughout.
+
+This concludes **Chapter 4: Newton’s Laws of Motion**.
+
+
+
+**Chapter 5: Applications of Newton’s Laws**
+
+## 5.1 Friction: Static and Kinetic
+
+Friction is a force that resists motion between two surfaces in contact. It arises due to microscopic irregularities and electromagnetic interactions at the surface.
+
+### **Types of Friction**
+
+1. **Static Friction (\( F_s \))**: Prevents an object from starting to move.
+   \[ F_s \leq \mu_s N \]
+   where \( \mu_s \) is the **coefficient of static friction** and \( N \) is the **normal force**.
+
+2. **Kinetic Friction (\( F_k \))**: Opposes the motion of a moving object.
+   \[ F_k = \mu_k N \]
+   where \( \mu_k \) is the **coefficient of kinetic friction**.
+
+#### Example Problem: Pushing a Box
+A person pushes a 50 kg box with a force of 200 N. If \( \mu_s = 0.4 \) and \( \mu_k = 0.3 \), determine if the box moves.
+
+Solution:
+\[	ext{Normal force: } N = mg = (50)(9.81) = 490.5 N\]
+\[	ext{Maximum static friction: } F_s = \mu_s N = (0.4)(490.5) = 196.2 N\]
+
+Since the applied force (200 N) is **greater** than static friction (196.2 N), the box starts moving.
+
+Once moving, kinetic friction applies:
+\[	ext{Kinetic friction: } F_k = \mu_k N = (0.3)(490.5) = 147.15 N\]
+
+The net force:
+\[	ext{Net force } F = 200 - 147.15 = 52.85 N\]
+\[	ext{Acceleration: } a = rac{F}{m} = rac{52.85}{50} = 1.06 	ext{ m/s}^2\]
+
+---
+
+## 5.2 Circular Motion and Centripetal Force
+
+An object moving in a **circular path** undergoes **centripetal acceleration**, directed toward the center of the circle.
+
+### **Centripetal Force**
+The force required to keep an object in circular motion:
+\[\mathbf{F}_c = m rac{v^2}{r}\]
+where:
+- \( v \) is the speed of the object,
+- \( r \) is the radius of the circular path.
+
+### **Example: Car on a Curve**
+A 1200 kg car moves at 20 m/s around a curve of radius 50 m. Find the required friction force to maintain circular motion.
+
+Solution:
+\[\mathbf{F}_c = rac{(1200)(20)^2}{50} = 9600 N\]
+
+The **static friction** between the tires and the road provides this force.
+
+---
+
+## 5.3 Drag Force and Terminal Velocity
+
+### **Drag Force**
+Objects moving through fluids (air or water) experience a resistive force called **drag**:
+\[\mathbf{F}_d = rac{1}{2} C_d ho A v^2\]
+where:
+- \( C_d \) = drag coefficient (depends on shape),
+- \( ho \) = fluid density,
+- \( A \) = cross-sectional area,
+- \( v \) = velocity.
+
+### **Terminal Velocity**
+At terminal velocity, gravitational force balances drag force:
+\[\mathbf{F}_g = \mathbf{F}_d\]
+
+Solving for \( v_t \):
+\[\mathbf{v}_t = \sqrt{rac{2mg}{C_d ho A}}\]
+
+#### Example: Skydiver
+A 75 kg skydiver has \( C_d = 1.2 \) and a frontal area of 0.7 m² in air (\( ho = 1.225 \) kg/m³). Find terminal velocity.
+
+Solution:
+\[\mathbf{v}_t = \sqrt{rac{2(75)(9.81)}{(1.2)(1.225)(0.7)}}\]
+\[\mathbf{v}_t pprox 53.0 	ext{ m/s}\]
+
+---
+
+## 5.4 Work Done by a Variable Force
+
+For a force \( F(x) \) that varies with position, work is calculated as an integral:
+\[\mathbf{W} = \int_{x_i}^{x_f} F(x) \,dx\]
+
+#### Example: Spring Work
+A spring with \( k = 200 \) N/m is stretched from 0.1 m to 0.3 m. Find the work done.
+
+Solution:
+Using Hooke’s Law (\( F = -kx \)):
+\[\mathbf{W} = \int_{0.1}^{0.3} -200x \,dx\]
+\[\mathbf{W} = -200 \left[rac{x^2}{2} ight]_{0.1}^{0.3}\]
+\[\mathbf{W} = -200 \left[rac{(0.3)^2}{2} - rac{(0.1)^2}{2}ight]\]
+\[\mathbf{W} = -200 \left[rac{0.09}{2} - rac{0.01}{2}ight]\]
+\[\mathbf{W} = -200 	imes 0.04 = -8.0 	ext{ J}\]
+
+The negative sign indicates the force resists the displacement.
+
+---
+
+## 5.5 Forces in Non-Inertial Frames
+
+In a **non-inertial reference frame** (accelerating frame), fictitious forces appear.
+
+### **Example: Elevator Ride**
+A person of mass 70 kg stands on a scale in an elevator.
+
+- **At Rest:** \( N = mg = (70)(9.81) = 686.7 \) N
+- **Accelerating Upward (2 m/s²):**
+  \[ N = m(g + a) = 70(9.81 + 2) = 826.7 N \]
+- **Accelerating Downward (2 m/s²):**
+  \[ N = m(g - a) = 70(9.81 - 2) = 546.7 N \]
+
+---
+
+# Summary of Key Equations
+
+1. **Friction:**
+   - \( F_s \leq \mu_s N \)
+   - \( F_k = \mu_k N \)
+
+2. **Centripetal Force:**
+   - \( F_c = rac{m v^2}{r} \)
+
+3. **Drag Force:**
+   - \( F_d = rac{1}{2} C_d ho A v^2 \)
+
+4. **Terminal Velocity:**
+   - \( v_t = \sqrt{rac{2mg}{C_d ho A}} \)
+
+5. **Work Done by Variable Force:**
+   - \( W = \int_{x_i}^{x_f} F(x) \,dx \)
+
+6. **Forces in Accelerating Frames:**
+   - \( N = m(g \pm a) \) (for elevators)
+
+This concludes **Chapter 5: Applications of Newton’s Laws**.
+
+
+
+**Chapter 6: Work and Energy**
+
+## 6.1 Work Done by a Force
+
+Work is defined as the energy transferred to an object when a force is applied over a displacement. Mathematically, work is given by:
+
+\[\mathbf{W} = \mathbf{F} \cdot \mathbf{d} = Fd \cos 	heta\]
+
+where:
+- \( W \) is the work done (Joules, J),
+- \( F \) is the magnitude of the force (N),
+- \( d \) is the displacement of the object (m),
+- \( 	heta \) is the angle between the force and displacement.
+
+### Special Cases:
+1. **Force parallel to displacement** (\( 	heta = 0^\circ \)):
+   \[ W = Fd \]
+2. **Force perpendicular to displacement** (\( 	heta = 90^\circ \)):
+   \[ W = 0 \] (No work is done)
+3. **Force opposite to displacement** (\( 	heta = 180^\circ \)):
+   \[ W = -Fd \] (Negative work)
+
+#### Example: Pushing a Crate
+A 50 kg crate is pushed with a force of 200 N over 5 m at an angle of 30°. Find the work done.
+
+Solution:
+\[\mathbf{W} = (200)(5) \cos(30^\circ)\]
+\[\mathbf{W} = 200 	imes 5 	imes 0.866 = 866 J\]
+
+---
+
+## 6.2 Kinetic Energy and the Work-Energy Theorem
+
+### **Kinetic Energy (KE)**
+The energy an object possesses due to motion:
+\[\mathbf{KE} = rac{1}{2} m v^2\]
+
+where \( m \) is the mass and \( v \) is the velocity.
+
+### **Work-Energy Theorem**
+The net work done on an object is equal to its change in kinetic energy:
+\[\mathbf{W}_{	ext{net}} = \Delta KE = KE_f - KE_i\]
+
+#### Example: Car Braking
+A 1000 kg car moving at 20 m/s applies brakes, bringing it to rest. Find the work done by the braking force.
+
+Solution:
+\[\Delta KE = KE_f - KE_i\]
+\[\Delta KE = 0 - rac{1}{2} (1000)(20)^2\]
+\[\Delta KE = -200,000 J\]
+
+Since the work is negative, the force is opposing motion.
+
+---
+
+## 6.3 Potential Energy
+
+### **Gravitational Potential Energy (PE)**
+Energy stored due to an object’s height in a gravitational field:
+\[\mathbf{PE}_g = mgh\]
+
+where \( g = 9.81 \, m/s^2 \) (on Earth).
+
+### **Elastic Potential Energy**
+For a stretched or compressed spring:
+\[\mathbf{PE}_s = rac{1}{2} k x^2\]
+
+where \( k \) is the spring constant and \( x \) is the displacement.
+
+#### Example: Raising a Book
+A 2 kg book is lifted from the floor to a shelf 1.5 m high. Find its gravitational potential energy.
+
+Solution:
+\[\mathbf{PE}_g = (2)(9.81)(1.5)\]
+\[\mathbf{PE}_g = 29.4 J\]
+
+---
+
+## 6.4 Conservation of Mechanical Energy
+
+If only **conservative forces** (gravity, spring forces) do work, mechanical energy is conserved:
+
+\[\mathbf{KE}_i + \mathbf{PE}_i = \mathbf{KE}_f + \mathbf{PE}_f\]
+
+For an object in free fall:
+\[rac{1}{2} m v_i^2 + mgh_i = rac{1}{2} m v_f^2 + mgh_f\]
+
+#### Example: Roller Coaster
+A 500 kg roller coaster starts at rest from 50 m. Find its speed at 10 m.
+
+Solution:
+\[\mathbf{KE}_i + \mathbf{PE}_i = \mathbf{KE}_f + \mathbf{PE}_f\]
+\[\mathbf{0} + (500)(9.81)(50) = rac{1}{2} (500) v^2 + (500)(9.81)(10)\]
+\[\mathbf{245250} = 250 v^2 + 49050\]
+\[\mathbf{196200} = 250 v^2\]
+\[\mathbf{v} = \sqrt{784} = 28 	ext{ m/s}\]
+
+---
+
+## 6.5 Power
+
+Power is the rate at which work is done:
+
+\[\mathbf{P} = rac{W}{t}\]
+
+or, using force and velocity:
+
+\[\mathbf{P} = Fv \cos 	heta\]
+
+Power is measured in **Watts (W)**, where:
+\[\mathbf{1 W = 1 J/s}\]
+
+### **Example: Climbing Stairs**
+A person (70 kg) climbs a 3 m high staircase in 5 s. Find the power output.
+
+Solution:
+\[\mathbf{W} = mgh = (70)(9.81)(3) = 2059 J\]
+\[\mathbf{P} = rac{2059}{5} = 412 W\]
+
+---
+
+# Summary of Key Equations
+
+1. **Work:**  
+   \[ W = Fd \cos 	heta \]
+
+2. **Kinetic Energy:**  
+   \[ KE = rac{1}{2} m v^2 \]
+
+3. **Work-Energy Theorem:**  
+   \[ W_{	ext{net}} = \Delta KE \]
+
+4. **Potential Energy:**  
+   - Gravitational: \( PE_g = mgh \)
+   - Elastic: \( PE_s = rac{1}{2} k x^2 \)
+
+5. **Mechanical Energy Conservation:**  
+   \[ KE_i + PE_i = KE_f + PE_f \]
+
+6. **Power:**  
+   \[ P = rac{W}{t} = Fv \cos 	heta \]
+
+This concludes **Chapter 6: Work and Energy**.
+
+
+
+**Chapter 7: Conservation of Energy**
+
+## 7.1 The Principle of Energy Conservation
+
+Energy is a fundamental property of the universe, and one of the most important laws in physics is the **law of conservation of energy**, which states:
+
+*"Energy cannot be created or destroyed, only transferred or transformed from one form to another."*
+
+In an isolated system:
+\[\mathbf{E_{	ext{initial}} = E_{	ext{final}}}\]
+
+---
+
+## 7.2 Conservative and Non-Conservative Forces
+
+### **Conservative Forces**
+A **conservative force** is a force for which the work done depends only on the initial and final positions, not the path taken.
+
+Examples:
+- Gravitational force
+- Elastic (spring) force
+- Electrostatic force
+
+For a conservative force, we define **potential energy (PE)**, and mechanical energy is conserved:
+
+\[\mathbf{KE}_i + \mathbf{PE}_i = \mathbf{KE}_f + \mathbf{PE}_f\]
+
+### **Non-Conservative Forces**
+A **non-conservative force** does work that depends on the path and causes energy dissipation.
+
+Examples:
+- Friction
+- Air resistance
+- Drag forces
+
+Non-conservative forces convert mechanical energy into other forms (heat, sound, etc.), so:
+
+\[\mathbf{KE}_i + \mathbf{PE}_i + W_{	ext{nc}} = \mathbf{KE}_f + \mathbf{PE}_f\]
+
+where \( W_{	ext{nc}} \) is work done by non-conservative forces.
+
+#### Example: Sliding on a Rough Surface
+A 10 kg box slides 5 m with \( \mu_k = 0.2 \). Find the work done by friction.
+
+Solution:
+\[\mathbf{W_f} = -F_k d = -\mu_k mg d\]
+\[\mathbf{W_f} = -(0.2)(10)(9.81)(5) = -98.1 J\]
+
+The negative sign indicates energy loss.
+
+---
+
+## 7.3 Energy Conservation in Various Systems
+
+### **Free Fall**
+For an object in free fall, ignoring air resistance:
+\[\mathbf{KE}_i + \mathbf{PE}_i = \mathbf{KE}_f + \mathbf{PE}_f\]
+
+If it starts at rest (\( v_i = 0 \)):
+\[\mathbf{mgh_i} = rac{1}{2} m v_f^2\]
+\[\mathbf{v_f} = \sqrt{2gh_i}\]
+
+#### Example: Falling Rock
+A 2 kg rock is dropped from 20 m. Find its velocity before hitting the ground.
+
+Solution:
+\[\mathbf{v_f} = \sqrt{2(9.81)(20)}\]
+\[\mathbf{v_f} = 19.8 	ext{ m/s}\]
+
+---
+
+### **Pendulums**
+For a simple pendulum:
+\[\mathbf{mgh} = rac{1}{2} m v^2\]
+
+At the highest point, velocity is zero (\( v = 0 \)). At the lowest point, all energy is kinetic.
+
+---
+
+## 7.4 Power and Energy Transfer
+
+Power is the rate of energy transfer:
+
+\[\mathbf{P} = rac{W}{t} = F v \cos 	heta\]
+
+where:
+- \( W \) is work (J),
+- \( t \) is time (s),
+- \( P \) is power (W),
+- \( v \) is velocity (m/s).
+
+### **Example: Power Output of a Cyclist**
+A cyclist exerts a force of 100 N while moving at 5 m/s. Find the power output.
+
+Solution:
+\[\mathbf{P} = F v \cos 0^\circ = (100)(5) = 500 W\]
+
+---
+
+# Summary of Key Equations
+
+1. **Energy Conservation (No Non-Conservative Forces):**  
+   \[ KE_i + PE_i = KE_f + PE_f \]
+
+2. **Energy Conservation (With Non-Conservative Forces):**  
+   \[ KE_i + PE_i + W_{	ext{nc}} = KE_f + PE_f \]
+
+3. **Free Fall Final Velocity:**  
+   \[ v_f = \sqrt{2gh} \]
+
+4. **Power:**  
+   \[ P = rac{W}{t} = F v \cos 	heta \]
+
+This concludes **Chapter 7: Conservation of Energy**.
+
+
+
+**Chapter 8: Momentum, Impulse, and Collisions**
+
+## 8.1 Linear Momentum
+
+**Momentum** is the product of an object’s mass and its velocity. It describes the motion of an object and is given by:
+
+\[\mathbf{p} = m\mathbf{v}\]
+
+where:
+- \( \mathbf{p} \) is momentum (kg·m/s),
+- \( m \) is mass (kg),
+- \( \mathbf{v} \) is velocity (m/s).
+
+Momentum is a **vector quantity**, meaning it has both magnitude and direction.
+
+### Conservation of Momentum
+In an **isolated system** where no external forces act, momentum is **conserved**:
+
+\[\mathbf{p_{	ext{initial}}} = \mathbf{p_{	ext{final}}}\]
+
+#### Example: Two Skaters Push Apart
+Two ice skaters, one with mass 60 kg and the other with mass 80 kg, push off each other. If the 60 kg skater moves at 3 m/s, find the velocity of the 80 kg skater.
+
+Solution:
+\[(m_1 v_1) + (m_2 v_2) = 0\]
+\[(60)(3) + (80)(v_2) = 0\]
+\[\mathbf{v_2} = -rac{180}{80} = -2.25 	ext{ m/s}\]
+
+The negative sign means the 80 kg skater moves in the opposite direction.
+
+---
+
+## 8.2 Impulse and Its Relationship to Momentum
+
+Impulse measures the effect of a force applied over time. It is given by:
+
+\[\mathbf{J} = \mathbf{F} \Delta t\]
+
+Impulse changes an object’s momentum:
+
+\[\mathbf{J} = \Delta \mathbf{p} = m \mathbf{v_f} - m \mathbf{v_i}\]
+
+### Example: Catching a Baseball
+A baseball (0.15 kg) moving at 40 m/s is caught and brought to rest in 0.2 s. Find the force applied by the glove.
+
+Solution:
+\[\mathbf{J} = \Delta \mathbf{p} = m v_f - m v_i\]
+\[\mathbf{J} = (0.15)(0 - 40) = -6 	ext{ Ns}\]
+
+Using \( F = J / \Delta t \):
+
+\[\mathbf{F} = rac{-6}{0.2} = -30 	ext{ N}\]
+
+The negative sign shows the force is in the opposite direction of motion.
+
+---
+
+## 8.3 Types of Collisions
+
+### **Elastic Collisions**
+- Both **momentum and kinetic energy** are conserved.
+- Objects **bounce** off each other.
+
+For two objects before and after a collision:
+
+\[\mathbf{m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}}\]
+
+\[\mathbf{rac{1}{2} m_1 v_{1i}^2 + rac{1}{2} m_2 v_{2i}^2 = rac{1}{2} m_1 v_{1f}^2 + rac{1}{2} m_2 v_{2f}^2}\]
+
+#### Example: Two Identical Balls Colliding
+Two billiard balls (0.5 kg each) collide. One moves at 4 m/s, the other is at rest. If the moving ball stops, what is the final velocity of the other?
+
+Solution:
+Momentum conservation:
+\[(0.5)(4) + (0.5)(0) = (0.5)(0) + (0.5) v_f\]
+
+\[\mathbf{v_f} = 4 	ext{ m/s}\]
+
+Since energy is conserved, the moving ball transfers all momentum to the stationary one.
+
+### **Inelastic Collisions**
+- **Momentum is conserved, but kinetic energy is not.**
+- Objects may **stick together** after collision (perfectly inelastic).
+
+For a **completely inelastic** collision:
+
+\[\mathbf{m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f}\]
+
+#### Example: A Bullet Embeds into a Block
+A 10 g bullet moving at 500 m/s embeds into a 2 kg block. Find the final velocity.
+
+Solution:
+\[(0.01)(500) + (2)(0) = (2.01) v_f\]
+
+\[\mathbf{v_f} = rac{5}{2.01} pprox 2.49 	ext{ m/s}\]
+
+---
+
+## 8.4 Center of Mass
+
+The **center of mass** is the weighted average location of an object’s mass:
+
+\[\mathbf{x_{cm}} = rac{m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}\]
+
+\[\mathbf{y_{cm}} = rac{m_1 y_1 + m_2 y_2 + ... + m_n y_n}{m_1 + m_2 + ... + m_n}\]
+
+### Example: Finding the Center of Mass of a Two-Mass System
+A 2 kg mass is at \( x = 0 \) m and a 4 kg mass is at \( x = 6 \) m. Find the center of mass.
+
+Solution:
+\[\mathbf{x_{cm}} = rac{(2)(0) + (4)(6)}{2+4}\]
+
+\[\mathbf{x_{cm}} = rac{24}{6} = 4 	ext{ m}\]
+
+---
+
+## 8.5 Rocket Propulsion and Variable Mass Systems
+
+Rockets operate by **conserving momentum** in a system where mass changes over time. The **rocket equation** is:
+
+\[\mathbf{v_f = v_i + v_e \ln rac{m_i}{m_f}}\]
+
+where:
+- \( v_f \) = final velocity,
+- \( v_i \) = initial velocity,
+- \( v_e \) = exhaust velocity,
+- \( m_i \) = initial mass,
+- \( m_f \) = final mass.
+
+### Example: Rocket Acceleration
+A rocket with initial mass 1000 kg expels gas at 500 m/s. If its final mass is 600 kg, find the final velocity.
+
+Solution:
+\[\mathbf{v_f} = 0 + (500) \ln rac{1000}{600}\]
+
+\[\mathbf{v_f} = 500 \ln(1.67) pprox 255.4 	ext{ m/s}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Momentum:**  
+   \[ \mathbf{p} = m \mathbf{v} \]
+
+2. **Impulse-Momentum Theorem:**  
+   \[ \mathbf{J} = \mathbf{F} \Delta t = \Delta \mathbf{p} \]
+
+3. **Elastic Collision:**  
+   \[ m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f} \]
+
+4. **Perfectly Inelastic Collision:**  
+   \[ m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f \]
+
+5. **Center of Mass:**  
+   \[ x_{cm} = rac{\sum m_i x_i}{\sum m_i} \]
+
+6. **Rocket Equation:**  
+   \[ v_f = v_i + v_e \ln rac{m_i}{m_f} \]
+
+This concludes **Chapter 8: Momentum, Impulse, and Collisions**.
+
+
+
+**Chapter 9: Collisions**
+
+## 9.1 Types of Collisions
+
+Collisions occur when two or more objects interact with forces in a short time interval. There are three main types of collisions:
+
+1. **Elastic Collisions**  
+   - Both **momentum** and **kinetic energy** are conserved.  
+   - Objects bounce off each other without deformation or heat generation.
+
+2. **Inelastic Collisions**  
+   - **Momentum** is conserved, but **kinetic energy is not**.  
+   - Some energy is converted into heat, sound, or deformation.
+
+3. **Perfectly Inelastic Collisions**  
+   - Objects **stick together** after collision.  
+   - Maximum kinetic energy loss occurs, but momentum remains conserved.
+
+### Conservation of Momentum
+For all collisions:
+\[\mathbf{p_{	ext{initial}} = p_{	ext{final}}}\]
+
+For two objects before and after a collision:
+\[\mathbf{m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}}\]
+
+---
+
+## 9.2 Elastic Collisions in One Dimension
+
+In an **elastic collision**, both momentum and kinetic energy are conserved:
+
+\[\mathbf{m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}}\]
+
+\[\mathbf{rac{1}{2} m_1 v_{1i}^2 + rac{1}{2} m_2 v_{2i}^2 = rac{1}{2} m_1 v_{1f}^2 + rac{1}{2} m_2 v_{2f}^2}\]
+
+For two objects of equal mass, a special case occurs where they **exchange velocities**.
+
+#### Example: Two Billiard Balls Colliding
+A 0.5 kg ball moving at 4 m/s collides elastically with another 0.5 kg ball at rest. Find their final velocities.
+
+Solution:
+Using conservation of momentum and kinetic energy, we find:
+
+\[\mathbf{v_{1f} = 0, \quad v_{2f} = 4 	ext{ m/s}}\]
+
+The first ball stops, and the second moves with the initial velocity of the first.
+
+---
+
+## 9.3 Inelastic Collisions in One Dimension
+
+For an **inelastic collision**, only **momentum is conserved**, but kinetic energy is lost:
+
+\[\mathbf{m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f}\]
+
+#### Example: Car Crash
+A 1000 kg car moving at 20 m/s collides with a 2000 kg truck moving at 10 m/s. They stick together after impact. Find their final velocity.
+
+Solution:
+\[(1000)(20) + (2000)(10) = (1000 + 2000) v_f\]
+\[\mathbf{v_f} = rac{20000 + 20000}{3000} = 13.3 	ext{ m/s}\]
+
+---
+
+## 9.4 Collisions in Two Dimensions
+
+For collisions in **two dimensions**, momentum is conserved in **both the x- and y-directions**:
+
+\[\mathbf{m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1fx} + m_2 v_{2fx}}\]
+
+\[\mathbf{m_1 v_{1iy} + m_2 v_{2iy} = m_1 v_{1fy} + m_2 v_{2fy}}\]
+
+### Example: Two Pucks Colliding on Ice
+A 0.2 kg hockey puck moving at 5 m/s collides at an angle of 30° with a stationary puck of equal mass. If they move apart at right angles after impact, find their final velocities.
+
+Solution:
+Using conservation of momentum in both directions:
+
+\[\mathbf{v_{1fx} = v_{1i} \cos 30^\circ}\]
+\[\mathbf{v_{2fy} = v_{1i} \sin 30^\circ}\]
+
+Solving for velocities:
+
+\[\mathbf{v_{1fx} = 4.33 	ext{ m/s}, \quad v_{2fy} = 2.5 	ext{ m/s}}\]
+
+---
+
+## 9.5 Center of Mass and Collisions
+
+The **center of mass** (\( x_{cm}, y_{cm} \)) follows:
+
+\[\mathbf{x_{cm}} = rac{m_1 x_1 + m_2 x_2}{m_1 + m_2}, \quad \mathbf{y_{cm}} = rac{m_1 y_1 + m_2 y_2}{m_1 + m_2}\]
+
+In a collision, the center of mass continues moving as if no collision occurred.
+
+#### Example: Center of Mass of a Two-Body System
+A 3 kg object at \( x = 2 \) m and a 6 kg object at \( x = 8 \) m. Find \( x_{cm} \).
+
+Solution:
+
+\[\mathbf{x_{cm} = rac{(3)(2) + (6)(8)}{3+6} = rac{6+48}{9} = 6 	ext{ m}}\]
+
+---
+
+## 9.6 Kinetic Energy and Collisions
+
+The **fraction of kinetic energy lost** in a collision is:
+
+\[\mathbf{rac{KE_{	ext{lost}}}{KE_{	ext{initial}}} = rac{KE_{	ext{initial}} - KE_{	ext{final}}}{KE_{	ext{initial}}}}\]
+
+For **elastic collisions**, \( KE_{	ext{lost}} = 0 \).
+
+For **perfectly inelastic collisions**, **maximum KE is lost**.
+
+#### Example: Energy Lost in a Collision
+A 2 kg cart moving at 3 m/s collides inelastically with a 4 kg cart at rest. Find the percentage of kinetic energy lost.
+
+Solution:
+
+\[\mathbf{KE_{	ext{initial}} = rac{1}{2} (2) (3)^2 = 9 J}\]
+
+Final velocity:
+\[\mathbf{v_f = rac{(2)(3) + (4)(0)}{2+4} = 1 	ext{ m/s}}\]
+
+\[\mathbf{KE_{	ext{final}} = rac{1}{2} (6) (1)^2 = 3 J}\]
+
+\[\mathbf{KE_{	ext{lost}} = 9 - 3 = 6 J}\]
+
+Percentage lost:
+\[\mathbf{rac{6}{9} 	imes 100 = 66.7\%}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Momentum Conservation:**  
+   \[ m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f} \]
+
+2. **Elastic Collision:**  
+   \[ KE_i = KE_f \]
+
+3. **Inelastic Collision:**  
+   \[ m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f \]
+
+4. **Collisions in Two Dimensions:**  
+   \[ m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1fx} + m_2 v_{2fx} \]  
+   \[ m_1 v_{1iy} + m_2 v_{2iy} = m_1 v_{1fy} + m_2 v_{2fy} \]
+
+5. **Center of Mass:**  
+   \[ x_{cm} = rac{\sum m_i x_i}{\sum m_i}, \quad y_{cm} = rac{\sum m_i y_i}{\sum m_i} \]
+
+6. **Kinetic Energy Lost in Collision:**  
+   \[ rac{KE_{	ext{lost}}}{KE_{	ext{initial}}} = rac{KE_{	ext{initial}} - KE_{	ext{final}}}{KE_{	ext{initial}}} \]
+
+This concludes **Chapter 9: Collisions**.
+
+
+
+**Chapter 10: Rotational Motion**
+
+## 10.1 Angular Quantities
+
+Rotational motion describes the movement of an object around a fixed axis. The key variables are:
+
+- **Angular displacement** (\( 	heta \)): The angle through which an object rotates, measured in **radians (rad)**.
+- **Angular velocity** (\( \omega \)): The rate of change of angular displacement:
+  \[\mathbf{\omega = rac{d	heta}{dt}}\]
+  Unit: rad/s.
+- **Angular acceleration** (\( lpha \)): The rate of change of angular velocity:
+  \[\mathbf{lpha = rac{d\omega}{dt}}\]
+  Unit: rad/s².
+
+The **relationship between linear and angular motion** is given by:
+
+- Linear displacement: \( s = r	heta \)
+- Linear velocity: \( v = r\omega \)
+- Linear acceleration: \( a = rlpha \)
+
+#### Example: Angular Speed of a Rotating Wheel
+A wheel rotates at \( 120 \) rpm. Convert this to rad/s.
+
+Solution:
+\[\mathbf{\omega = rac{120 	imes 2\pi}{60} = 12.57 	ext{ rad/s}}\]
+
+---
+
+## 10.2 Rotational Kinematics
+
+Rotational kinematic equations (analogous to linear motion equations):
+
+1. \( \omega_f = \omega_i + lpha t \)
+2. \( 	heta = \omega_i t + rac{1}{2} lpha t^2 \)
+3. \( \omega_f^2 = \omega_i^2 + 2lpha 	heta \)
+
+#### Example: A Spinning Fan
+A fan starts from rest and accelerates at \( 2 	ext{ rad/s}^2 \) for 5 s. Find the final angular velocity.
+
+Solution:
+\[\mathbf{\omega_f = 0 + (2)(5) = 10 	ext{ rad/s}}\]
+
+---
+
+## 10.3 Torque and Rotational Dynamics
+
+Torque (\( 	au \)) is the rotational equivalent of force:
+
+\[\mathbf{	au = rF \sin	heta}\]
+
+where:
+- \( r \) = distance from axis of rotation,
+- \( F \) = applied force,
+- \( 	heta \) = angle between \( r \) and \( F \).
+
+### Newton’s Second Law for Rotation:
+\[\mathbf{	au = I lpha}\]
+
+where \( I \) is the **moment of inertia**, defined as:
+
+\[\mathbf{I = \sum m r^2}\]
+
+### Example: Torque on a Wrench
+A 50 N force is applied perpendicularly at 0.3 m from the pivot. Find the torque.
+
+Solution:
+\[\mathbf{	au = (0.3)(50) = 15 	ext{ Nm}}\]
+
+---
+
+## 10.4 Moment of Inertia
+
+Moment of inertia depends on mass distribution. Common moments of inertia:
+
+- **Point mass:** \( I = mr^2 \)
+- **Solid disk:** \( I = rac{1}{2} MR^2 \)
+- **Hollow cylinder:** \( I = MR^2 \)
+- **Rod (about center):** \( I = rac{1}{12} ML^2 \)
+- **Rod (about end):** \( I = rac{1}{3} ML^2 \)
+
+---
+
+## 10.5 Rotational Work and Energy
+
+- **Rotational kinetic energy:**  
+  \[\mathbf{KE_{	ext{rot}} = rac{1}{2} I \omega^2}\]
+
+- **Work done by torque:**  
+  \[\mathbf{W = 	au 	heta}\]
+
+#### Example: Rotational Energy of a Flywheel
+A solid disk (\( I = rac{1}{2} MR^2 \)) with mass 10 kg and radius 0.5 m rotates at 10 rad/s. Find its kinetic energy.
+
+Solution:
+\[\mathbf{KE_{	ext{rot}} = rac{1}{2} (5)(0.5)^2 (10)^2 = 125 	ext{ J}}\]
+
+---
+
+## 10.6 Angular Momentum
+
+Angular momentum is given by:
+
+\[\mathbf{L = I \omega}\]
+
+**Conservation of Angular Momentum:**
+
+\[\mathbf{I_1 \omega_1 = I_2 \omega_2}\]
+
+#### Example: Ice Skater Spinning
+An ice skater spins at 2 rad/s with arms extended (\( I = 4 \) kg·m²). When she pulls her arms in (\( I = 2 \) kg·m²), find her new angular velocity.
+
+Solution:
+\[\mathbf{(4)(2) = (2) \omega_f}\]
+\[\mathbf{\omega_f = 4 	ext{ rad/s}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Rotational Kinematics:**
+   - \( \omega_f = \omega_i + lpha t \)
+   - \( 	heta = \omega_i t + rac{1}{2} lpha t^2 \)
+   - \( \omega_f^2 = \omega_i^2 + 2lpha 	heta \)
+
+2. **Torque:**  
+   \[ 	au = rF \sin	heta \]
+
+3. **Rotational Newton’s Second Law:**  
+   \[ 	au = I lpha \]
+
+4. **Rotational Kinetic Energy:**  
+   \[ KE_{	ext{rot}} = rac{1}{2} I \omega^2 \]
+
+5. **Angular Momentum:**  
+   \[ L = I \omega \]
+
+6. **Conservation of Angular Momentum:**  
+   \[ I_1 \omega_1 = I_2 \omega_2 \]
+
+This concludes **Chapter 10: Rotational Motion**.
+
+
+
+**Chapter 11: Angular Momentum**
+
+## 11.1 The Angular Momentum of a Particle
+
+Angular momentum (\( L \)) is the rotational analog of linear momentum. It is defined as:
+
+\[\mathbf{L = r 	imes p}\]
+
+where:
+- \( \mathbf{r} \) is the position vector from the axis of rotation,
+- \( \mathbf{p} = m \mathbf{v} \) is the linear momentum.
+
+In scalar form:
+\[\mathbf{L = r p \sin	heta}\]
+where \( 	heta \) is the angle between \( \mathbf{r} \) and \( \mathbf{p} \).
+
+### **Example: Angular Momentum of a Moving Particle**
+A 2 kg particle moves at 4 m/s perpendicular to a 3 m lever arm. Find its angular momentum.
+
+Solution:
+\[\mathbf{L = (3)(2)(4) \sin 90^\circ = 24 	ext{ kg·m}^2/	ext{s}}\]
+
+---
+
+## 11.2 Angular Momentum of a Rotating Rigid Body
+
+For a rigid body rotating about a fixed axis, the angular momentum is:
+
+\[\mathbf{L = I \omega}\]
+
+where:
+- \( I \) is the **moment of inertia**,
+- \( \omega \) is the **angular velocity**.
+
+If no external torque acts:
+
+\[\mathbf{rac{dL}{dt} = 0} \quad \Rightarrow \quad \mathbf{L = 	ext{constant}}\]
+
+This is the **conservation of angular momentum**.
+
+---
+
+## 11.3 Conservation of Angular Momentum
+
+If no external torque acts, **angular momentum is conserved**:
+
+\[\mathbf{I_1 \omega_1 = I_2 \omega_2}\]
+
+This principle explains phenomena like **figure skaters spinning faster when pulling in their arms**.
+
+### **Example: Ice Skater Pulling Arms In**
+An ice skater spins at 2 rad/s with \( I = 4 \) kg·m². She pulls her arms in, reducing \( I \) to 2 kg·m². Find her new angular velocity.
+
+Solution:
+\[\mathbf{(4)(2) = (2) \omega_f}\]
+
+\[\mathbf{\omega_f = 4 	ext{ rad/s}}\]
+
+---
+
+## 11.4 Torque and Angular Momentum
+
+From Newton’s Second Law for rotation:
+
+\[\mathbf{	au = rac{dL}{dt}}\]
+
+If torque is zero, \( L \) is conserved.
+
+### **Example: Spinning Disk with External Torque**
+A 5 kg·m² disk rotates at 10 rad/s. A torque of 20 N·m is applied for 2 seconds. Find the new angular velocity.
+
+Solution:
+\[\mathbf{	au = I lpha \Rightarrow 20 = (5) lpha}\]
+
+\[\mathbf{lpha = 4 	ext{ rad/s}^2}\]
+
+Using kinematics:
+\[\mathbf{\omega_f = \omega_i + lpha t = 10 + (4)(2) = 18 	ext{ rad/s}}\]
+
+---
+
+## 11.5 Gyroscopic Motion and Precession
+
+A spinning object resists changes in orientation due to conservation of angular momentum. **Precession** occurs when a torque acts perpendicular to the angular momentum:
+
+\[\mathbf{\omega_p = rac{	au}{L}}\]
+
+where:
+- \( \omega_p \) is the **precessional angular velocity**.
+
+### **Example: Precession of a Spinning Wheel**
+A wheel with \( L = 10 \) kg·m²/s is subjected to a 5 N·m torque. Find the precession rate.
+
+Solution:
+\[\mathbf{\omega_p = rac{5}{10} = 0.5 	ext{ rad/s}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Angular Momentum of a Particle:**  
+   \[ L = r p \sin	heta = mvr \sin	heta \]
+
+2. **Angular Momentum of a Rigid Body:**  
+   \[ L = I \omega \]
+
+3. **Conservation of Angular Momentum:**  
+   \[ I_1 \omega_1 = I_2 \omega_2 \]
+
+4. **Torque and Angular Momentum:**  
+   \[ 	au = rac{dL}{dt} \]
+
+5. **Precession Rate:**  
+   \[ \omega_p = rac{	au}{L} \]
+
+This concludes **Chapter 11: Angular Momentum**.
+
+
+
+**Chapter 12: Static Equilibrium and Elasticity**
+
+## 12.1 Conditions for Equilibrium
+
+An object is in **static equilibrium** when:
+1. The **net force** acting on it is zero:
+   \[\mathbf{\sum F = 0}\]
+2. The **net torque** about any axis is zero:
+   \[\mathbf{\sum 	au = 0}\]
+
+This ensures the object is neither accelerating nor rotating.
+
+### **Example: Balancing a Beam**
+A 4 m beam (mass 10 kg) is supported at one end and holds a 20 kg mass at the other end. Find the support force.
+
+Solution:
+Using torque about the support:
+\[\mathbf{(20 	imes 9.81)(4) + (10 	imes 9.81)(2) = F_s (0)}\]
+
+\[\mathbf{F_s = (20)(9.81) + (10)(9.81) = 294.3 	ext{ N}}\]
+
+---
+
+## 12.2 Torque and Levers
+
+Torque is calculated as:
+\[\mathbf{	au = r F \sin	heta}\]
+
+The **mechanical advantage** of a lever depends on the ratio of effort and resistance arms:
+
+\[\mathbf{	ext{MA} = rac{F_{	ext{out}}}{F_{	ext{in}}} = rac{d_{	ext{in}}}{d_{	ext{out}}}}\]
+
+---
+
+## 12.3 Stability and Center of Gravity
+
+The **center of gravity (CG)** is the point where weight acts as if concentrated. It is given by:
+
+\[\mathbf{x_{	ext{cg}} = rac{\sum m_i x_i}{\sum m_i}}\]
+
+An object is **stable** if its CG remains above the base of support when slightly tilted.
+
+---
+
+## 12.4 Stress, Strain, and Elastic Moduli
+
+Materials deform under force, described by:
+
+- **Stress**: Force per unit area:
+  \[\mathbf{	ext{Stress} = rac{F}{A}}\]
+- **Strain**: Fractional deformation:
+  \[\mathbf{	ext{Strain} = rac{\Delta L}{L_0}}\]
+
+Hooke’s Law relates stress to strain:
+\[\mathbf{	ext{Stress} = E 	imes 	ext{Strain}}\]
+where \( E \) is **Young’s modulus**.
+
+### **Example: Stretching a Wire**
+A 2 m steel wire (\( E = 2 	imes 10^{11} \) Pa) stretches by 1 mm under a 500 N force. Find its diameter.
+
+Solution:
+\[\mathbf{rac{500}{A} = (2 	imes 10^{11}) rac{0.001}{2}}\]
+
+Solving for \( A \), then diameter \( d \), we get:
+
+\[\mathbf{d pprox 2.52 	ext{ mm}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Equilibrium Conditions:**  
+   \[ \sum F = 0, \quad \sum 	au = 0 \]
+
+2. **Torque:**  
+   \[ 	au = rF \sin	heta \]
+
+3. **Mechanical Advantage:**  
+   \[ 	ext{MA} = rac{F_{	ext{out}}}{F_{	ext{in}}} \]
+
+4. **Center of Gravity:**  
+   \[ x_{	ext{cg}} = rac{\sum m_i x_i}{\sum m_i} \]
+
+5. **Stress and Strain:**  
+   \[ 	ext{Stress} = E 	imes 	ext{Strain} \]
+
+This concludes **Chapter 12: Static Equilibrium and Elasticity**.
+
+
+
+**Chapter 13: Oscillations**
+
+## 13.1 Simple Harmonic Motion (SHM)
+
+Simple harmonic motion (SHM) is a type of periodic motion where an object oscillates around an equilibrium position under a **restoring force**.
+
+The defining equation of SHM is:
+
+\[\mathbf{F = -kx}\]
+
+where:
+- \( k \) = force constant (N/m),
+- \( x \) = displacement from equilibrium (m).
+
+This leads to the differential equation:
+
+\[\mathbf{m rac{d^2x}{dt^2} + kx = 0}\]
+
+The general solution for position as a function of time:
+
+\[\mathbf{x(t) = A \cos(\omega t + \phi)}\]
+
+where:
+- \( A \) = amplitude (maximum displacement),
+- \( \omega \) = angular frequency \( (\omega = \sqrt{k/m}) \),
+- \( \phi \) = phase constant.
+
+---
+
+## 13.2 Energy in Simple Harmonic Motion
+
+Total energy in SHM is conserved and consists of:
+
+\[\mathbf{E = KE + PE = rac{1}{2} k A^2}\]
+
+- **Kinetic Energy:**  
+  \[\mathbf{KE = rac{1}{2} m v^2}\]
+- **Potential Energy (Elastic PE):**  
+  \[\mathbf{PE = rac{1}{2} k x^2}\]
+
+At equilibrium (\( x = 0 \)):
+\[\mathbf{KE_{\max} = rac{1}{2} k A^2}, \quad PE = 0\]
+
+At max displacement (\( x = A \)):
+\[\mathbf{KE = 0}, \quad PE_{\max} = rac{1}{2} k A^2\]
+
+---
+
+## 13.3 The Simple Pendulum
+
+A simple pendulum consists of a mass \( m \) suspended from a length \( L \) and undergoes SHM for small angles:
+
+\[\mathbf{\omega = \sqrt{rac{g}{L}}}\]
+
+The period of oscillation is:
+
+\[\mathbf{T = 2\pi \sqrt{rac{L}{g}}}\]
+
+where \( g \) is gravitational acceleration.
+
+### **Example: Pendulum on Earth and Moon**
+A pendulum on Earth has \( L = 1 \) m. Find its period on Earth and the Moon (\( g_{	ext{moon}} = 1.63 \) m/s²).
+
+Solution:
+
+\[\mathbf{T_{	ext{earth}} = 2\pi \sqrt{rac{1}{9.81}} = 2.01 	ext{ s}}\]
+
+\[\mathbf{T_{	ext{moon}} = 2\pi \sqrt{rac{1}{1.63}} = 4.91 	ext{ s}}\]
+
+---
+
+## 13.4 Damped Oscillations
+
+Damping occurs when a resistive force (e.g., friction, air resistance) reduces the amplitude over time. The damping force is:
+
+\[\mathbf{F_d = -b v}\]
+
+where \( b \) is the damping coefficient.
+
+### **Types of Damping:**
+1. **Underdamping:** Oscillations gradually decrease.
+2. **Critical Damping:** Motion returns to equilibrium in minimum time.
+3. **Overdamping:** System returns slowly without oscillation.
+
+Damped motion equation:
+
+\[\mathbf{x(t) = A e^{-\gamma t} \cos(\omega' t + \phi)}\]
+
+where \( \gamma = rac{b}{2m} \) and \( \omega' = \sqrt{\omega^2 - \gamma^2} \).
+
+---
+
+## 13.5 Driven (Forced) Oscillations and Resonance
+
+If an external periodic force \( F_{	ext{ext}} = F_0 \cos(\omega t) \) is applied, the system undergoes **forced oscillation**. The amplitude response depends on the driving frequency \( \omega \).
+
+At **resonance** (\( \omega = \omega_0 \)), amplitude reaches a maximum, which can cause structural failures (e.g., Tacoma Narrows Bridge).
+
+### **Example: Resonant Oscillation**
+A 2 kg mass attached to a spring (\( k = 50 \) N/m) is driven at 5 rad/s. Find the resonance frequency.
+
+Solution:
+\[\mathbf{\omega_0 = \sqrt{rac{k}{m}} = \sqrt{rac{50}{2}} = 5 	ext{ rad/s}}\]
+
+Since the driving frequency matches the natural frequency, **resonance occurs**.
+
+---
+
+# Summary of Key Equations
+
+1. **Equation of Motion:**  
+   \[ m rac{d^2x}{dt^2} + kx = 0 \]
+
+2. **Position in SHM:**  
+   \[ x(t) = A \cos(\omega t + \phi) \]
+
+3. **Energy in SHM:**  
+   \[ E = rac{1}{2} k A^2 \]
+
+4. **Simple Pendulum Period:**  
+   \[ T = 2\pi \sqrt{rac{L}{g}} \]
+
+5. **Damped Oscillations:**  
+   \[ x(t) = A e^{-\gamma t} \cos(\omega' t + \phi) \]
+
+6. **Resonance Frequency:**  
+   \[ \omega_0 = \sqrt{rac{k}{m}} \]
+
+This concludes **Chapter 13: Oscillations**.
+
+
+
+**Chapter 14: Gravitation**
+
+## 14.1 Newton’s Law of Universal Gravitation
+
+Newton formulated the **law of universal gravitation**, which states that every mass in the universe attracts every other mass with a force given by:
+
+\[\mathbf{F = G rac{m_1 m_2}{r^2}}\]
+
+where:
+- \( G = 6.674 	imes 10^{-11} \) N·m²/kg² (gravitational constant),
+- \( m_1, m_2 \) = masses of the objects,
+- \( r \) = distance between the centers of the two masses.
+
+### **Example: Gravitational Force Between Earth and the Moon**
+Given:
+- \( m_{	ext{earth}} = 5.97 	imes 10^{24} \) kg,
+- \( m_{	ext{moon}} = 7.35 	imes 10^{22} \) kg,
+- \( r = 3.84 	imes 10^8 \) m.
+
+Solution:
+\[\mathbf{F = rac{(6.674 	imes 10^{-11})(5.97 	imes 10^{24})(7.35 	imes 10^{22})}{(3.84 	imes 10^8)^2}}\]
+
+\[\mathbf{F pprox 1.98 	imes 10^{20} 	ext{ N}}\]
+
+---
+
+## 14.2 The Gravitational Field
+
+The **gravitational field** at a point is the force per unit mass at that location:
+
+\[\mathbf{g = rac{F}{m} = rac{G M}{r^2}}\]
+
+where \( g \) is the acceleration due to gravity at distance \( r \) from mass \( M \).
+
+For Earth:
+\[\mathbf{g = rac{G M_{	ext{earth}}}{R_{	ext{earth}}^2}}\]
+
+\[\mathbf{g pprox 9.81 	ext{ m/s}^2}\]
+
+---
+
+## 14.3 Gravitational Potential Energy
+
+The gravitational potential energy (\( U \)) of a mass in a gravitational field is:
+
+\[\mathbf{U = - G rac{M m}{r}}\]
+
+The negative sign indicates that work must be done to separate the masses.
+
+### **Example: Energy Required to Move a Satellite**
+A 500 kg satellite orbits at 700 km above Earth. Find the energy needed to move it to an infinite distance.
+
+Solution:
+\[\mathbf{U_i = - G rac{M_{	ext{earth}} m}{R_{	ext{earth}} + h}}\]
+\[\mathbf{U_f = 0}\]
+
+Energy required:
+\[\mathbf{\Delta U = - U_i}\]
+
+Plugging in values, we get:
+\[\mathbf{\Delta U pprox 2.32 	imes 10^9 	ext{ J}}\]
+
+---
+
+## 14.4 Escape Velocity
+
+Escape velocity is the minimum speed required to escape a planet’s gravitational field:
+
+\[\mathbf{v_e = \sqrt{rac{2GM}{R}}}\]
+
+For Earth:
+
+\[\mathbf{v_e = \sqrt{rac{2(6.674 	imes 10^{-11})(5.97 	imes 10^{24})}{6.37 	imes 10^6}}}\]
+
+\[\mathbf{v_e pprox 11.2 	ext{ km/s}}\]
+
+---
+
+## 14.5 Kepler’s Laws of Planetary Motion
+
+Johannes Kepler discovered three empirical laws governing planetary motion:
+
+1. **Kepler’s First Law (Law of Orbits):**  
+   Planets move in **elliptical** orbits with the Sun at one **focus**.
+
+2. **Kepler’s Second Law (Law of Areas):**  
+   A line drawn from a planet to the Sun sweeps out **equal areas** in **equal times**.
+
+3. **Kepler’s Third Law (Law of Periods):**  
+   The square of a planet’s orbital period (\( T \)) is proportional to the cube of its semi-major axis (\( a \)):
+
+   \[\mathbf{T^2 \propto a^3}\]
+
+   or,
+
+   \[\mathbf{T^2 = rac{4\pi^2 a^3}{GM}}\]
+
+### **Example: Orbital Period of Mars**
+Given:
+- \( a_{	ext{mars}} = 1.52 \) AU,
+- \( T_{	ext{earth}} = 1 \) year.
+
+Using Kepler’s Third Law:
+
+\[\mathbf{T_{	ext{mars}}^2 = 1.52^3}\]
+
+\[\mathbf{T_{	ext{mars}} pprox 1.88 	ext{ years}}\]
+
+---
+
+## 14.6 Satellites and Orbital Motion
+
+The velocity of a **satellite in circular orbit**:
+
+\[\mathbf{v = \sqrt{rac{GM}{r}}}\]
+
+The period of revolution:
+
+\[\mathbf{T = 2\pi \sqrt{rac{r^3}{GM}}}\]
+
+### **Example: International Space Station Orbit**
+Given:
+- Altitude = 400 km,
+- \( M_{	ext{earth}} = 5.97 	imes 10^{24} \) kg,
+- \( R_{	ext{earth}} = 6.37 	imes 10^6 \) m.
+
+Find the orbital velocity and period.
+
+Solution:
+\[\mathbf{v = \sqrt{rac{(6.674 	imes 10^{-11})(5.97 	imes 10^{24})}{6.77 	imes 10^6}}}\]
+
+\[\mathbf{v pprox 7.67 	ext{ km/s}}\]
+
+For the period:
+
+\[\mathbf{T = 2\pi \sqrt{rac{(6.77 	imes 10^6)^3}{(6.674 	imes 10^{-11})(5.97 	imes 10^{24})}}}\]
+
+\[\mathbf{T pprox 92.7 	ext{ minutes}}\]
+
+---
+
+## 14.7 Black Holes and Gravitational Collapse
+
+A **black hole** forms when a massive star collapses beyond its **Schwarzschild radius**:
+
+\[\mathbf{R_s = rac{2GM}{c^2}}\]
+
+where \( c \) is the speed of light.
+
+### **Example: Schwarzschild Radius of the Sun**
+Given:
+- \( M_{	ext{sun}} = 1.99 	imes 10^{30} \) kg.
+
+Solution:
+\[\mathbf{R_s = rac{2(6.674 	imes 10^{-11})(1.99 	imes 10^{30})}{(3 	imes 10^8)^2}}\]
+
+\[\mathbf{R_s pprox 2.95 	ext{ km}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Newton’s Law of Gravitation:**  
+   \[ F = G rac{m_1 m_2}{r^2} \]
+
+2. **Gravitational Field Strength:**  
+   \[ g = rac{G M}{r^2} \]
+
+3. **Gravitational Potential Energy:**  
+   \[ U = - G rac{M m}{r} \]
+
+4. **Escape Velocity:**  
+   \[ v_e = \sqrt{rac{2GM}{R}} \]
+
+5. **Kepler’s Third Law:**  
+   \[ T^2 = rac{4\pi^2 a^3}{GM} \]
+
+6. **Orbital Velocity:**  
+   \[ v = \sqrt{rac{GM}{r}} \]
+
+7. **Schwarzschild Radius:**  
+   \[ R_s = rac{2GM}{c^2} \]
+
+This concludes **Chapter 14: Gravitation**.
+
+
+
+**Chapter 15: Fluids**
+
+## 15.1 Density and Pressure
+
+### **Density**  
+Density (\( ho \)) is the mass per unit volume:
+
+\[\mathbf{ho = rac{m}{V}}\]
+
+where:
+- \( ho \) = density (kg/m³),
+- \( m \) = mass (kg),
+- \( V \) = volume (m³).
+
+Common densities:
+- Water: \( 1000 \) kg/m³
+- Air: \( 1.29 \) kg/m³
+- Mercury: \( 13,600 \) kg/m³
+
+### **Pressure**  
+Pressure (\( P \)) is the force per unit area:
+
+\[\mathbf{P = rac{F}{A}}\]
+
+where:
+- \( P \) = pressure (Pa or N/m²),
+- \( F \) = force (N),
+- \( A \) = area (m²).
+
+Atmospheric pressure at sea level:
+\[\mathbf{P_{	ext{atm}} = 1.013 	imes 10^5 	ext{ Pa}}\]
+
+#### **Example: Pressure Underwater**
+Find the pressure 10 m underwater. Given \( g = 9.81 \) m/s² and \( ho_{	ext{water}} = 1000 \) kg/m³.
+
+Solution:
+\[\mathbf{P = P_{	ext{atm}} + ho g h}\]
+\[\mathbf{P = (1.013 	imes 10^5) + (1000)(9.81)(10)}\]
+\[\mathbf{P = 1.98 	imes 10^5 	ext{ Pa}}\]
+
+---
+
+## 15.2 Pascal’s Principle
+
+Pascal’s principle states:
+
+*"A change in pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid."*
+
+\[\mathbf{P_1 = P_2}\]
+
+In a **hydraulic system**:
+
+\[\mathbf{F_1 A_1 = F_2 A_2}\]
+
+\[\mathbf{F_2 = F_1 rac{A_2}{A_1}}\]
+
+#### **Example: Hydraulic Lift**
+A 500 N force is applied to a small piston (\( A_1 = 0.01 \) m²) connected to a larger piston (\( A_2 = 0.5 \) m²). Find the output force.
+
+Solution:
+\[\mathbf{F_2 = (500) 	imes rac{0.5}{0.01} = 25,000 	ext{ N}}\]
+
+---
+
+## 15.3 Archimedes’ Principle and Buoyancy
+
+Archimedes’ principle states:
+
+*"A body submerged in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid."*
+
+\[\mathbf{F_B = ho_{	ext{fluid}} g V_{	ext{displaced}}}\]
+
+If \( F_B > mg \), the object **floats**; otherwise, it sinks.
+
+#### **Example: Floating Object**
+A 2 kg wood block (\( ho = 600 \) kg/m³) is placed in water. What fraction of it remains submerged?
+
+Solution:
+\[\mathbf{rac{V_{	ext{submerged}}}{V} = rac{ho_{	ext{block}}}{ho_{	ext{water}}} = rac{600}{1000} = 0.6}\]
+
+60% of the block is submerged.
+
+---
+
+## 15.4 Fluid Dynamics: The Equation of Continuity
+
+For an **incompressible fluid**, mass conservation gives:
+
+\[\mathbf{A_1 v_1 = A_2 v_2}\]
+
+where:
+- \( A_1, A_2 \) = cross-sectional areas,
+- \( v_1, v_2 \) = flow velocities.
+
+#### **Example: Water Flowing in a Pipe**
+Water flows at 3 m/s in a 10 cm diameter pipe. If the pipe narrows to 5 cm, find the new speed.
+
+Solution:
+\[\mathbf{(0.1^2)(3) = (0.05^2) v_2}\]
+
+\[\mathbf{v_2 = 12 	ext{ m/s}}\]
+
+---
+
+## 15.5 Bernoulli’s Equation
+
+Bernoulli’s principle states that in a steady, incompressible, non-viscous fluid:
+
+\[\mathbf{P + rac{1}{2} ho v^2 + ho g h = 	ext{constant}}\]
+
+This explains **airplane lift**, **Venturi effect**, and **fluid velocity changes**.
+
+#### **Example: Airplane Wing Lift**
+Air flows at 200 m/s over the top of a wing and 180 m/s below. Find the pressure difference.
+
+Solution:
+\[\mathbf{P_1 - P_2 = rac{1}{2} ho (v_2^2 - v_1^2)}\]
+
+For air (\( ho = 1.29 \) kg/m³):
+
+\[\mathbf{\Delta P = rac{1}{2} (1.29) (200^2 - 180^2)}\]
+
+\[\mathbf{\Delta P pprox 5.1 	imes 10^3 	ext{ Pa}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Density:**  
+   \[ ho = rac{m}{V} \]
+
+2. **Pressure:**  
+   \[ P = rac{F}{A} \]
+
+3. **Pascal’s Principle:**  
+   \[ F_2 = F_1 rac{A_2}{A_1} \]
+
+4. **Buoyant Force:**  
+   \[ F_B = ho_{	ext{fluid}} g V_{	ext{displaced}} \]
+
+5. **Equation of Continuity:**  
+   \[ A_1 v_1 = A_2 v_2 \]
+
+6. **Bernoulli’s Equation:**  
+   \[ P + rac{1}{2} ho v^2 + ho g h = 	ext{constant} \]
+
+This concludes **Chapter 15: Fluids**.
+
+
+
+**Chapter 16: Waves and Sound**
+
+## 16.1 Types of Waves
+
+A **wave** is a disturbance that transfers energy through a medium or space. There are two main types of waves:
+
+1. **Mechanical Waves:** Require a medium (e.g., sound waves, water waves, seismic waves).
+2. **Electromagnetic Waves:** Do not require a medium (e.g., light, radio waves).
+
+### **Classification by Motion**
+- **Transverse Waves:** The disturbance is **perpendicular** to the wave direction (e.g., light, water waves).
+- **Longitudinal Waves:** The disturbance is **parallel** to the wave direction (e.g., sound waves).
+
+The **wave speed** is given by:
+
+\[\mathbf{v = f \lambda}\]
+
+where:
+- \( v \) = wave speed (m/s),
+- \( f \) = frequency (Hz),
+- \( \lambda \) = wavelength (m).
+
+---
+
+## 16.2 Wave Properties
+
+### **1. Amplitude (\( A \))**  
+The maximum displacement from equilibrium.
+
+### **2. Wavelength (\( \lambda \))**  
+The distance between two successive peaks or troughs.
+
+### **3. Period (\( T \))**  
+The time for one full cycle of the wave:
+
+\[\mathbf{T = rac{1}{f}}\]
+
+### **4. Speed of a Wave**  
+For a wave traveling in a stretched string:
+
+\[\mathbf{v = \sqrt{rac{T}{\mu}}}\]
+
+where:
+- \( T \) = tension in the string (N),
+- \( \mu \) = mass per unit length (kg/m).
+
+#### **Example: Speed of a Wave on a String**
+A string under 50 N tension has \( \mu = 0.01 \) kg/m. Find the wave speed.
+
+Solution:
+
+\[\mathbf{v = \sqrt{rac{50}{0.01}} = \sqrt{5000} = 70.7 	ext{ m/s}}\]
+
+---
+
+## 16.3 Sound Waves
+
+Sound waves are **longitudinal mechanical waves** traveling through a medium.
+
+### **Speed of Sound in Different Media**
+\[\mathbf{v_{	ext{sound}} = \sqrt{rac{B}{ho}}}\]
+
+where:
+- \( B \) = bulk modulus (elasticity of medium),
+- \( ho \) = density of medium.
+
+Typical sound speeds:
+- Air: \( 343 \) m/s
+- Water: \( 1482 \) m/s
+- Steel: \( 5000 \) m/s
+
+#### **Example: Sound Speed in Helium**
+Given \( B = 0.101 	imes 10^9 \) Pa, \( ho = 0.178 \) kg/m³.
+
+Solution:
+\[\mathbf{v = \sqrt{rac{0.101 	imes 10^9}{0.178}}}\]
+
+\[\mathbf{v pprox 972 	ext{ m/s}}\]
+
+---
+
+## 16.4 The Doppler Effect
+
+The **Doppler effect** is the change in frequency due to relative motion between the source and observer.
+
+\[\mathbf{f' = f rac{v + v_o}{v - v_s}}\]
+
+where:
+- \( f' \) = observed frequency,
+- \( f \) = source frequency,
+- \( v \) = speed of sound,
+- \( v_o \) = observer’s velocity,
+- \( v_s \) = source’s velocity.
+
+### **Example: Siren Moving Toward an Observer**
+A 500 Hz siren moves toward a stationary observer at 30 m/s. Find the observed frequency.
+
+Solution (\( v = 343 \) m/s):
+
+\[\mathbf{f' = 500 rac{343 + 0}{343 - 30}}\]
+
+\[\mathbf{f' pprox 546 	ext{ Hz}}\]
+
+---
+
+## 16.5 Standing Waves and Resonance
+
+Standing waves occur when two waves of the same frequency travel in opposite directions, creating nodes and antinodes.
+
+For a **string fixed at both ends**, allowed wavelengths:
+
+\[\mathbf{\lambda_n = rac{2L}{n}}\]
+
+Allowed frequencies:
+
+\[\mathbf{f_n = rac{n v}{2L}}\]
+
+where \( n = 1, 2, 3, ... \) is the harmonic number.
+
+For **open pipes**, similar formulas apply.
+
+For **closed pipes**, only **odd harmonics** exist:
+
+\[\mathbf{\lambda_n = rac{4L}{n}}, \quad n = 1,3,5,...\]
+
+#### **Example: Guitar String Harmonics**
+A guitar string (\( L = 0.65 \) m) vibrates at \( v = 330 \) m/s. Find the fundamental frequency.
+
+Solution:
+
+\[\mathbf{f_1 = rac{v}{2L} = rac{330}{2(0.65)}}\]
+
+\[\mathbf{f_1 pprox 253.8 	ext{ Hz}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Wave Speed:**  
+   \[ v = f \lambda \]
+
+2. **Speed of a Wave on a String:**  
+   \[ v = \sqrt{rac{T}{\mu}} \]
+
+3. **Speed of Sound in a Medium:**  
+   \[ v_{	ext{sound}} = \sqrt{rac{B}{ho}} \]
+
+4. **Doppler Effect:**  
+   \[ f' = f rac{v + v_o}{v - v_s} \]
+
+5. **Standing Wave Frequencies (String & Open Pipe):**  
+   \[ f_n = rac{n v}{2L} \]
+
+6. **Standing Wave Frequencies (Closed Pipe):**  
+   \[ f_n = rac{n v}{4L}, \quad n = 1,3,5,... \]
+
+This concludes **Chapter 16: Waves and Sound**.
+
+
+
+**Chapter 17: Temperature and Heat**
+
+## 17.1 Temperature and the Zeroth Law of Thermodynamics
+
+### **Definition of Temperature**
+Temperature is a measure of the average kinetic energy of the molecules in a substance. It determines the direction of heat flow: **heat flows from high to low temperature**.
+
+The three common temperature scales are:
+- **Celsius (\( ^\circ C \))**: Water freezes at **0°C** and boils at **100°C**.
+- **Fahrenheit (\( ^\circ F \))**: Water freezes at **32°F** and boils at **212°F**.
+- **Kelvin (\( K \))**: Absolute zero is **0 K**, and water freezes at **273.15 K**.
+
+### **Temperature Conversions**
+\[\mathbf{T(K) = T(^\circ C) + 273.15}\]
+\[\mathbf{T(^\circ F) = rac{9}{5} T(^\circ C) + 32}\]
+
+### **Zeroth Law of Thermodynamics**
+If two objects \( A \) and \( B \) are in thermal equilibrium with a third object \( C \), then \( A \) and \( B \) are in equilibrium with each other. This forms the basis of **temperature measurement**.
+
+---
+
+## 17.2 Thermal Expansion
+
+Solids and liquids expand when heated due to increased molecular motion.
+
+### **Linear Expansion**
+\[\mathbf{\Delta L = lpha L_0 \Delta T}\]
+
+where:
+- \( lpha \) = coefficient of linear expansion (\( 	ext{°C}^{-1} \)),
+- \( L_0 \) = original length,
+- \( \Delta T \) = temperature change.
+
+### **Volume Expansion**
+\[\mathbf{\Delta V = eta V_0 \Delta T}\]
+
+where \( eta = 3lpha \) for most solids.
+
+#### **Example: Expansion of a Steel Rod**
+A 1 m steel rod (\( lpha = 12 	imes 10^{-6} 	ext{°C}^{-1} \)) is heated from 20°C to 100°C. Find its expansion.
+
+\[\mathbf{\Delta L = (12 	imes 10^{-6})(1)(100 - 20)}\]
+\[\mathbf{\Delta L = 0.00096 	ext{ m} = 0.96 	ext{ mm}}\]
+
+---
+
+## 17.3 Heat and Specific Heat Capacity
+
+**Heat (\( Q \))** is energy transferred due to temperature difference. Measured in **joules (J)**.
+
+\[\mathbf{Q = mc\Delta T}\]
+
+where:
+- \( m \) = mass (kg),
+- \( c \) = specific heat capacity (J/kg·°C),
+- \( \Delta T \) = temperature change (°C).
+
+#### **Example: Heating Water**
+How much heat is needed to raise 500 g of water from 20°C to 80°C? (\( c_{	ext{water}} = 4186 \) J/kg·°C).
+
+Solution:
+
+\[\mathbf{Q = (0.5)(4186)(80 - 20)}\]
+\[\mathbf{Q = 125,580 	ext{ J}}\]
+
+---
+
+## 17.4 Phase Changes and Latent Heat
+
+When a substance changes phase (solid-liquid-gas), energy is absorbed or released **without temperature change**.
+
+\[\mathbf{Q = mL}\]
+
+where:
+- \( L \) = **latent heat** (J/kg).
+
+### **Latent Heats of Water**
+- Fusion (melting/freezing): \( L_f = 3.33 	imes 10^5 \) J/kg.
+- Vaporization (boiling/condensing): \( L_v = 2.26 	imes 10^6 \) J/kg.
+
+#### **Example: Melting Ice**
+How much heat is required to melt 2 kg of ice at 0°C?
+
+Solution:
+\[\mathbf{Q = (2)(3.33 	imes 10^5)}\]
+\[\mathbf{Q = 6.66 	imes 10^5 	ext{ J}}\]
+
+---
+
+## 17.5 Heat Transfer Mechanisms
+
+Heat is transferred by three methods:
+
+### **1. Conduction**  
+Heat flows through a material via molecular collisions.
+
+\[\mathbf{P = rac{kA(T_2 - T_1)}{L}}\]
+
+where:
+- \( k \) = thermal conductivity (W/m·K),
+- \( A \) = area (m²),
+- \( L \) = thickness (m),
+- \( (T_2 - T_1) \) = temperature difference.
+
+### **2. Convection**  
+Heat transfer through fluid motion (e.g., boiling water, ocean currents).
+
+### **3. Radiation**  
+Heat transfer via electromagnetic waves.
+
+\[\mathbf{P = \sigma A e T^4}\]
+
+where:
+- \( \sigma = 5.67 	imes 10^{-8} \) W/m²K⁴ (Stefan-Boltzmann constant),
+- \( e \) = emissivity (0 to 1),
+- \( T \) = absolute temperature (K).
+
+#### **Example: Heat Loss by Radiation**
+A 2 m² surface at 400 K radiates heat (\( e = 0.8 \)). Find the power.
+
+Solution:
+\[\mathbf{P = (5.67 	imes 10^{-8}) (2) (0.8) (400)^4}\]
+\[\mathbf{P pprox 145.7 	ext{ W}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **Temperature Conversions:**  
+   \[ T(K) = T(^\circ C) + 273.15 \]
+   \[ T(^\circ F) = rac{9}{5} T(^\circ C) + 32 \]
+
+2. **Thermal Expansion:**  
+   \[ \Delta L = lpha L_0 \Delta T \]
+   \[ \Delta V = eta V_0 \Delta T \]
+
+3. **Heat Transfer:**  
+   \[ Q = mc\Delta T \]
+
+4. **Phase Change:**  
+   \[ Q = mL \]
+
+5. **Conduction Rate:**  
+   \[ P = rac{kA(T_2 - T_1)}{L} \]
+
+6. **Radiation Power:**  
+   \[ P = \sigma A e T^4 \]
+
+This concludes **Chapter 17: Temperature and Heat**.
+
+
+
+**Chapter 18: Heat, Work, and the First Law of Thermodynamics**
+
+## 18.1 The First Law of Thermodynamics
+
+The **First Law of Thermodynamics** is a statement of **energy conservation** applied to thermal systems. It states:
+
+\[\mathbf{\Delta U = Q - W}\]
+
+where:
+- \( \Delta U \) = change in **internal energy** (J),
+- \( Q \) = **heat added** to the system (J),
+- \( W \) = **work done by** the system (J).
+
+### **Interpretation:**
+- \( Q > 0 \): Heat is added to the system.
+- \( Q < 0 \): Heat is lost by the system.
+- \( W > 0 \): Work is done **by** the system.
+- \( W < 0 \): Work is done **on** the system.
+
+#### **Example: Heating a Gas**
+A system absorbs **400 J** of heat and does **250 J** of work. Find \( \Delta U \).
+
+Solution:
+
+\[\mathbf{\Delta U = 400 - 250 = 150 	ext{ J}}\]
+
+---
+
+## 18.2 Work Done by a Gas
+
+For a gas expanding or compressing, work is given by:
+
+\[\mathbf{W = \int P dV}\]
+
+For a constant-pressure process:
+
+\[\mathbf{W = P \Delta V}\]
+
+where \( \Delta V = V_f - V_i \) is the change in volume.
+
+#### **Example: Work Done in Expansion**
+A gas expands from **2.0 m³ to 5.0 m³** at **constant 100 kPa**.
+
+Solution:
+
+\[\mathbf{W = (100 	imes 10^3)(5 - 2)}\]
+\[\mathbf{W = 300 	imes 10^3 = 300 	ext{ kJ}}\]
+
+---
+
+## 18.3 Thermodynamic Processes
+
+### **1. Isothermal Process (\( T = 	ext{constant} \))**
+- **First law:** \( Q = W \) (since \( \Delta U = 0 \)).
+- **Work done:**  
+  \[\mathbf{W = nRT \ln rac{V_f}{V_i}}\]
+
+### **2. Adiabatic Process (\( Q = 0 \))**
+- No heat exchange, so \( \Delta U = -W \).
+- **Work done:**  
+  \[\mathbf{W = rac{P_i V_i - P_f V_f}{\gamma - 1}}\]
+  where \( \gamma = C_p/C_v \) (ratio of heat capacities).
+
+### **3. Isobaric Process (\( P = 	ext{constant} \))**
+- Work done:  
+  \[\mathbf{W = P \Delta V}\]
+
+### **4. Isochoric Process (\( V = 	ext{constant} \))**
+- No work is done (\( W = 0 \)), so:
+  \[\mathbf{\Delta U = Q}\]
+
+---
+
+## 18.4 Heat Capacities of Gases
+
+For an **ideal gas**, heat capacity depends on whether the process is constant-volume or constant-pressure:
+
+- **At constant volume (\( C_V \))**:  
+  \[\mathbf{Q = n C_V \Delta T}\]
+
+- **At constant pressure (\( C_P \))**:  
+  \[\mathbf{Q = n C_P \Delta T}\]
+
+For a **monatomic ideal gas**:
+- \( C_V = rac{3}{2} R \)
+- \( C_P = rac{5}{2} R \)
+
+For a **diatomic ideal gas**:
+- \( C_V = rac{5}{2} R \)
+- \( C_P = rac{7}{2} R \)
+
+where \( R = 8.314 \) J/mol·K (gas constant).
+
+#### **Example: Heating Helium**
+Calculate the heat required to raise **1.0 mol** of helium gas by **10 K** at constant volume.
+
+Solution:
+
+\[\mathbf{Q = n C_V \Delta T = (1) \left(rac{3}{2} (8.314)ight) (10)}\]
+\[\mathbf{Q = 124.7 	ext{ J}}\]
+
+---
+
+## 18.5 The Internal Energy of an Ideal Gas
+
+For an ideal gas, **internal energy** depends only on temperature:
+
+\[\mathbf{\Delta U = n C_V \Delta T}\]
+
+For a **monatomic gas**:
+\[\mathbf{\Delta U = rac{3}{2} n R \Delta T}\]
+
+For a **diatomic gas**:
+\[\mathbf{\Delta U = rac{5}{2} n R \Delta T}\]
+
+---
+
+## 18.6 Molar Specific Heats and Degrees of Freedom
+
+The **degrees of freedom** of a molecule determine how energy is distributed:
+- **Monatomic gases** (He, Ne, Ar) → 3 degrees (translational motion).
+- **Diatomic gases** (O₂, N₂) → 5 degrees (translational + rotational motion).
+
+The **equipartition theorem** states that each degree of freedom has an energy of:
+
+\[\mathbf{rac{1}{2} k_B T 	ext{ per molecule}}\]
+
+where \( k_B = 1.38 	imes 10^{-23} \) J/K.
+
+---
+
+## 18.7 The First Law and Human Metabolism
+
+The human body follows thermodynamic principles:
+- Energy intake from food is converted into **work and heat**.
+- Basal Metabolic Rate (BMR) determines **heat dissipation**.
+
+Energy required per day:
+
+\[\mathbf{E = 	ext{BMR} 	imes 	ext{time}}\]
+
+For an average human:
+- **BMR** = 2000 kcal/day (\(pprox 8.37 	imes 10^6 \) J/day).
+- **Heat loss through radiation, conduction, convection, and evaporation.**
+
+#### **Example: Energy from Running**
+A person burns **500 kcal** while jogging. Convert to joules.
+
+Solution:
+
+\[\mathbf{500 	imes 4184 = 2.09 	imes 10^6 	ext{ J}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **First Law of Thermodynamics:**  
+   \[ \Delta U = Q - W \]
+
+2. **Work Done by a Gas (Constant Pressure):**  
+   \[ W = P \Delta V \]
+
+3. **Isothermal Process:**  
+   \[ W = nRT \ln rac{V_f}{V_i} \]
+
+4. **Adiabatic Process:**  
+   \[ W = rac{P_i V_i - P_f V_f}{\gamma - 1} \]
+
+5. **Heat Capacity Relations:**  
+   \[ Q = n C_V \Delta T 	ext{ (constant volume)} \]
+   \[ Q = n C_P \Delta T 	ext{ (constant pressure)} \]
+
+6. **Internal Energy of an Ideal Gas:**  
+   \[ \Delta U = rac{3}{2} n R \Delta T 	ext{ (monatomic gas)} \]
+   \[ \Delta U = rac{5}{2} n R \Delta T 	ext{ (diatomic gas)} \]
+
+7. **Energy in Degrees of Freedom:**  
+   \[ rac{1}{2} k_B T 	ext{ per molecule per degree of freedom} \]
+
+This concludes **Chapter 18: Heat, Work, and the First Law of Thermodynamics**.
+
+
+
+**Chapter 19: The Second Law of Thermodynamics**
+
+## 19.1 Introduction to the Second Law
+
+The **Second Law of Thermodynamics** describes the direction of energy transfer and the natural tendency of systems to evolve toward disorder.
+
+It states that:
+
+*"Heat flows spontaneously from a hotter object to a colder one, and not the reverse, unless work is done."*
+
+### **Key Concepts:**
+1. **Entropy (\( S \))** always increases in a closed system.
+2. **Heat engines** cannot be 100% efficient.
+3. **Energy disperses over time unless external work is applied.**
+
+---
+
+## 19.2 Heat Engines and Efficiency
+
+A **heat engine** is a device that converts heat into work.
+
+### **Basic Heat Engine Cycle**
+- \( Q_H \): Heat input from a hot reservoir.
+- \( Q_C \): Waste heat rejected to a cold reservoir.
+- \( W \): Work output.
+
+By the **First Law of Thermodynamics**:
+
+\[\mathbf{W = Q_H - Q_C}\]
+
+### **Efficiency of a Heat Engine**
+\[\mathbf{e = rac{W}{Q_H} = 1 - rac{Q_C}{Q_H}}\]
+
+where \( e \) is the efficiency (unitless).
+
+#### **Example: Power Plant Efficiency**
+A power plant takes in **2000 J** of heat and outputs **800 J** of work. Find the efficiency.
+
+Solution:
+\[\mathbf{e = 1 - rac{Q_C}{Q_H} = 1 - rac{1200}{2000}}\]
+\[\mathbf{e = 0.40 	ext{ or } 40\%}\]
+
+---
+
+## 19.3 The Carnot Cycle
+
+The **Carnot engine** is an idealized heat engine with **maximum efficiency**:
+
+\[\mathbf{e_{	ext{Carnot}} = 1 - rac{T_C}{T_H}}\]
+
+where:
+- \( T_C \) = temperature of the cold reservoir (K),
+- \( T_H \) = temperature of the hot reservoir (K).
+
+**No real engine can exceed Carnot efficiency.**
+
+#### **Example: Carnot Efficiency**
+A steam engine operates between **600 K** and **300 K**. Find the maximum efficiency.
+
+Solution:
+\[\mathbf{e_{	ext{Carnot}} = 1 - rac{300}{600} = 0.50 	ext{ or } 50\%}\]
+
+---
+
+## 19.4 Refrigerators and Heat Pumps
+
+A **refrigerator** moves heat from a colder region to a hotter one using work.
+
+The **coefficient of performance (COP)** of a refrigerator is:
+
+\[\mathbf{COP_R = rac{Q_C}{W} = rac{Q_C}{Q_H - Q_C}}\]
+
+For a **heat pump** (used for heating a home):
+
+\[\mathbf{COP_P = rac{Q_H}{W} = rac{Q_H}{Q_H - Q_C}}\]
+
+#### **Example: Refrigerator COP**
+A fridge removes **500 J** of heat while consuming **100 J** of work. Find the COP.
+
+Solution:
+\[\mathbf{COP_R = rac{500}{100} = 5}\]
+
+---
+
+## 19.5 Entropy and the Second Law
+
+**Entropy (\( S \))** is a measure of disorder. It always increases in an isolated system:
+
+\[\mathbf{\Delta S = rac{Q_{	ext{rev}}}{T}}\]
+
+where:
+- \( Q_{	ext{rev}} \) = heat added in a **reversible** process,
+- \( T \) = temperature (K).
+
+For an **irreversible process**, entropy increases:
+
+\[\mathbf{\Delta S_{	ext{total}} > 0}\]
+
+### **Example: Entropy Change in Melting Ice**
+Find \( \Delta S \) when **0.5 kg of ice** at **0°C** melts into water. Given \( L_f = 3.33 	imes 10^5 \) J/kg.
+
+Solution:
+
+\[\mathbf{Q = (0.5)(3.33 	imes 10^5) = 1.665 	imes 10^5 	ext{ J}}\]
+
+\[\mathbf{\Delta S = rac{1.665 	imes 10^5}{273}}\]
+
+\[\mathbf{\Delta S = 610.2 	ext{ J/K}}\]
+
+---
+
+## 19.6 The Arrow of Time and Entropy Increase
+
+Entropy explains why **some processes are irreversible**, such as:
+- Heat spreading evenly in a room.
+- Breaking a cup (but not spontaneously reassembling).
+
+The **"arrow of time"** follows increasing entropy.
+
+---
+
+## 19.7 Real-World Applications of the Second Law
+
+- **Power plants** convert heat to electricity but lose energy as waste heat.
+- **Engines** (cars, aircraft) use thermodynamics to generate motion.
+- **Refrigerators and air conditioners** use work to move heat.
+
+#### **Example: Minimum Work to Cool a Room**
+A 1000 J heat transfer occurs at 270 K. What is the minimum work?
+
+Solution:
+
+\[\mathbf{W_{\min} = Q_C \left(rac{T_H - T_C}{T_C}ight)}\]
+
+For \( T_H = 300 K \), \( T_C = 270 K \):
+
+\[\mathbf{W_{\min} = (1000) \left(rac{300 - 270}{270}ight)}\]
+
+\[\mathbf{W_{\min} pprox 111 	ext{ J}}\]
+
+---
+
+# Summary of Key Equations
+
+1. **First Law of Thermodynamics:**  
+   \[ W = Q_H - Q_C \]
+
+2. **Efficiency of a Heat Engine:**  
+   \[ e = 1 - rac{Q_C}{Q_H} \]
+
+3. **Carnot Efficiency:**  
+   \[ e_{	ext{Carnot}} = 1 - rac{T_C}{T_H} \]
+
+4. **Coefficient of Performance (COP) for Refrigerators:**  
+   \[ COP_R = rac{Q_C}{W} \]
+
+5. **Coefficient of Performance (COP) for Heat Pumps:**  
+   \[ COP_P = rac{Q_H}{W} \]
+
+6. **Entropy Change:**  
+   \[ \Delta S = rac{Q_{	ext{rev}}}{T} \]
+
+This concludes **Chapter 19: The Second Law of Thermodynamics**.
+
